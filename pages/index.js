@@ -40,7 +40,7 @@ export default function Home() {
             value={animalInput}
             onChange={(e) => setAnimalInput(e.target.value)}
           />
-          <input type="submit" value="Generate names" />
+          <input type="submit" value="Generate a name" />
         </form>
         <div className={styles.result}>{result}</div>
       </main>
